@@ -105,6 +105,7 @@ fun HalamanSatu(
            ){
                OutlinedButton(modifier = Modifier.weight(1f),
                    onClick = onCancelButtonClicked) {
+                   Text(stringResource(R.string.cancel))
                }
                Button(modifier = Modifier.weight(1f),
                    enabled = textJmlBeli.isNotEmpty(),
