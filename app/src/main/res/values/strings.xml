@@ -15,4 +15,11 @@
     <string name="flavor">Rasa</string>
     <string name="subtotal_price">Subtotal : Rp %s</string>
     <string name="total_price">Total %s</string>
+    <string name="name">Nama</string>
+    <string name="address">Alamat</string>
+    <string name="phone">No Telphone</string>
+    <string name="submit_button">Submit</string>
+    <string name="namaOrder">Nama Pemesan : </string>
+    <string name="alamatOrder">Alamat Pemesan : </string>
+    <string name="phoneOrder">No Telephone Pemesan : </string>
 </resources>
