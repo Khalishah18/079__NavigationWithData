@@ -47,7 +47,7 @@ fun HalamanForm(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ){
-        Text(text = "Masukkan Data Diri", fontWeight = FontWeight.Bold, fontSize = 25.sp)
+        Text(text = "Masukkan Data Pembeli", fontWeight = FontWeight.Bold, fontSize = 25.sp)
         Column (
             modifier = Modifier.padding(20.dp)
         ){
@@ -83,7 +83,7 @@ fun HalamanForm(
             Button(onClick = {onBackButtonClicked}) {
                 Text(text = stringResource(id = R.string.back_button))
             }
-            Button(onClick = {onSubmitButtonClicked}) {
+            Button(onClick = {onSubmitButtonClicked(listData)}) {
                 Text(text = stringResource(id = R.string.submit_button))
             }
         }
